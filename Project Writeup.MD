@@ -5,7 +5,7 @@ __Note: I have completed the project through Udacity's VM workspace, so many loc
 This project introduces students to the ML Object Detection workflow utilizing the skills of data analysis, visualization, data augmentation, and running a Convolutional Neural Network with FFNN to create a model. Images with groundtruths from Waymo were used as input data, model training was done trough the use of TensorFlow Object Detection API, and tensorboard was used to visaulize the model's metrics and performance. The goal was to familiarize students with the Object Detection workflow and successfully train and evaluate the ML model with certain hyperparameter changes of choice.
 
 ## Set Up
-*Note: Instructions to train and run the model with given '''BASH .config ''' files*
+*Note: Instructions to train and run the model with given* '''BASH .config ''' *files*
 ## Dataset Analysis
 
 ## Training
