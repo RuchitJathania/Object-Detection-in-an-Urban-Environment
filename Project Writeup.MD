@@ -6,6 +6,7 @@ This project introduces students to the ML Object Detection workflow utilizing t
 
 ## Set Up
 *Note: Instructions to train and run the model with given* `.config` *files*
+First, get the files from the [Github Repository](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment.git)
 ## Dataset Analysis
 
 ## Training
