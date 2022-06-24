@@ -33,7 +33,10 @@ Then to evaluate the model run the following but change the `experiments/referen
   python experiments/model_main_tf2.py --model_dir=experiments/reference/ --pipeline_config_path={Path of config file you want to used to train} --checkpoint_dir=experiments/reference/
 ```
 
-Finally to visualize the performance metrics through tensorflow, run the following in your terminal
+Finally to visualize the performance metrics through tensorflow, run the following in your terminal:
+```bash
+  python -m tensorboard.main --logdir experiments/reference/
+```
 ## Dataset Analysis
 
 ## Training
