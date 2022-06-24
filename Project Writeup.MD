@@ -9,7 +9,10 @@ This project introduces students to the ML Object Detection workflow utilizing t
 
 First, get the files from the [Github Repository](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment.git)
 
-Then build the Docker container and image with the dockerfile and instructions in the `build` directory
+Then build the Docker container and image with the dockerfile and instructions in the `build` directory. This requires a Nvidia-GPU and either docker or nvidia-docker.
+Once all of the dependencies are installed and the project is ready to be ran through the docker container continue to the next steps.
+
+
 ## Dataset Analysis
 
 ## Training
