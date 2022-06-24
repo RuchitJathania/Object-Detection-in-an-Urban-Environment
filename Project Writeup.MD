@@ -16,6 +16,11 @@ You need to download the data to be used for the model by using the `dowlaod_pro
 ```bash
   python download_process.py --data_dir {processed_file_location} --size {number of files you want to download}
 ```
+Then you need to create the splits for the data by running `create_splits.py` by running:
+```bash
+  python create_splits.py --data-dir {Your directory for processed_file_location}
+```
+Then you have to download the [pretrained SSD Resnet 50 640x640 model](http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz) and put it in `experiments/pretrained_model/`
 ## Dataset Analysis
 
 ## Training
