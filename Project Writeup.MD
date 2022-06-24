@@ -9,10 +9,13 @@ This project introduces students to the ML Object Detection workflow utilizing t
 
 First, get the files from the [Github Repository](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment.git)
 
-Then build the Docker container and image with the dockerfile and instructions in the `build` directory. This requires a Nvidia-GPU and either docker or nvidia-docker. Then install the [Waymo Open Dataset files](https://console.cloud.google.com/storage/browser/waymo_open_dataset_v_1_2_0_individual_files;tab=objects?prefix=&forceOnObjectsSortingFiltering=false) to be used.
+Then build the Docker container and image with the dockerfile and instructions in the `build` directory. This requires a Nvidia-GPU and either docker or nvidia-docker. 
 Once all of the dependencies are installed and the project is ready to be ran through the docker container continue to the next steps.
 
-
+You need to download the data to be used for the model by using the `dowlaod_process.py` code by running:
+```bash
+  python download_process.py --data_dir {processed_file_location} --size {number of files you want to download}
+```
 ## Dataset Analysis
 
 ## Training
