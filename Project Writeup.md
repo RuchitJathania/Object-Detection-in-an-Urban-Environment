@@ -38,55 +38,12 @@ Finally to visualize the performance metrics through tensorflow, run the followi
   python -m tensorboard.main --logdir experiments/reference/
 ```
 ## Dataset Analysis
+![](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment/blob/main/DataVisualization/ExploratoryDataAnalysis/Screenshot%202022-06-24%20154321.png)
 
-![](EDA/edaimg.png)
+![]()
+![]()
+![]()
 
-![](EDA/Screenshot%202022-06-24%20154321.png)
-
-![](EDA/Screenshot%202022-06-24%20154346.png)
-
-![](EDA/Screenshot%202022-06-24%20154418.png)
-
-
-![](EDA/Screenshot%202022-06-24%20154431.png)
-
-![](EDA/Screenshot%202022-06-24%20154502.png)
-
-![](EDA/segment-10017090168044687777_6.png)
-
-![](EDA/segment-10023947602400723454_1.png)
-
-![](EDA/segment-1005081002024129653_53.png)
-
-![](EDA/segment-10107710434105775874_7.png)
-
-![](EDA/segment-1022527355599519580_48.png)
-
-![](EDA/segment-10235335145367115211_5.png)
-
-![](EDA/segment-10241508783381919015_2.png)
-
-![](EDA/segment-10327752107000040525_1.png)
-
-![](EDA/segment-10723911392655396041_8.png)
-
-![](EDA/segment-11004685739714500220_2.png)
-
-![](EDA/segment-11070802577416161387_7.png)
-
-![](EDA/segment-11113047206980595400_2.png)
-
-![](EDA/segment-11219370372259322863_5.png)
-
-![](EDA/segment-11355519273066561009_5.png)
-
-![](EDA/segment-11674150664140226235_6.png)
-
-![](EDA/segment-11839652018869852123_2.png)
-
-![](EDA/segment-11847506886204460250_1.png)
-
-![](EDA/segment-1191788760630624072_38.png)
 
 These images show a wide range of domains and variation in the training images.
 * The traffic density is highly variable
@@ -99,7 +56,15 @@ These images show a wide range of domains and variation in the training images.
 
 _Note: The classes of object are color coded with cars being red, pedestrians green, cyclists in yellow_
 ## Training
-
 ### Reference Experiment
 
+![](experiment0_ref/refEvalLoss.png)
+
+![](experiment0_ref/refTrainStep.png)
+
+![](experiment0_ref/refEvalPrecision.png)
+
+![](experiment0_ref/refEvalRecall.png)
+
+Overall, the reference model did not perform too well. The parameters were being updated well and optimized until a 1600 steps when the learning rate was around 0.015 but then flattened out to a loss metric of around 4.5. Of course, as expected the evaluation loss was slightly higher than the training loss since none of the evaluation images were the same as the training, getting rid of the bias of the same data being fed to the model.
 ### Custom Experiment/Model Improvements
