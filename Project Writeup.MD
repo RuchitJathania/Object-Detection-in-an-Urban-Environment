@@ -9,7 +9,7 @@ This project introduces students to the ML Object Detection workflow utilizing t
 
 First, get the files from the [Github Repository](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment.git)
 
-Then build the Docker container and image with the dockerfile and instructions in the `bash build` directory
+Then build the Docker container and image with the dockerfile and instructions in the `build` directory
 ## Dataset Analysis
 
 ## Training
