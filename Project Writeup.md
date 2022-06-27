@@ -100,7 +100,7 @@ These are some of the original implementation's visualizations. The labeled boun
 ![](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment/blob/main/DataVisualization/ExploratoryDataAnalysis/classDist.png)
 
 
-Most of the type of objects in the data-set are vehicles and there are barely any cyclists relatively. These images show a wide range of domains and variation in the training images.
+Most of the type of objects in the data-set are vehicles and there are barely any cyclists relatively. This would result in poorer performance recognizing cyclists and pedestrians for the model. These images show a wide range of domains and variation in the training images.
 * The traffic density is highly variable
 * The weather conditions are highly variable(fog, rain, overcast)
 * Certain images are from night time
