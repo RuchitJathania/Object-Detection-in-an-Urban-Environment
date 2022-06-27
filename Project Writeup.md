@@ -91,7 +91,16 @@ Finally to visualize the performance metrics through tensorflow, run the followi
 
 ![](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment/blob/main/DataVisualization/ExploratoryDataAnalysis/segment-1191788760630624072_38.png)
 
-These images show a wide range of domains and variation in the training images.
+These are some of the original implementation's visualizations. The labeled bounding box images and class distribution are below. 
+
+![](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment/blob/main/DataVisualization/ExploratoryDataAnalysis/download.png)
+
+![](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment/blob/main/DataVisualization/ExploratoryDataAnalysis/labelledbbox.png)
+
+![](https://github.com/RuchitJathania/Object-Detection-in-an-Urban-Environment/blob/main/DataVisualization/ExploratoryDataAnalysis/classDist.png)
+
+
+Most of the type of objects in the data-set are vehicles and there are barely any cyclists relatively. These images show a wide range of domains and variation in the training images.
 * The traffic density is highly variable
 * The weather conditions are highly variable(fog, rain, overcast)
 * Certain images are from night time
